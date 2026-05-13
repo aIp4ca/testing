@@ -1,0 +1,22 @@
+                                                          STUDENT REGISTRATION FORM.
+
+
+
+
+a
+
+
+Student (Student_id, FirstName, MiddleName, Lastname, Gender, Religion, Dialect, City Municipalicty, ethinicity, Age,  Province, Region, ZIPCODE)
+Courses (ID, Course, Description, Major, School Year, SEM)
+SUBJECT()
+Teacher(Teacher_ID, FirstName, LastName, MiddleName, DEPT)
+CASHIER(Student_ID, Course_ID, Payments, Balance, SY, FEES)
+FEES(Course_ID, SY, PERMIT, MISCFEE, OTHERFEE, OJTFEE)
+STUDENT ACCOUNTS(Student_ID, TotalUnits, MISFEES, SY, COURSE, PRELM, MIDTERM, FINAL, OTHERS FEES)
+SUBJECT LOADS(Student_ID, Course_ID, SY, SEM, CN, SUBJECTCODE, DESCRIPTION)
+UNITS(1st, 2nd , 3rd, final, teacher_ID, remarks, units, type)
+GRADES(prelimGrades, midtermGrades, FinalGrades)
+
+Dean()
+
+
